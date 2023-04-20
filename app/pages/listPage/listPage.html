@@ -1,0 +1,15 @@
+<ion-navbar *navbar>
+  <ion-title>
+    List Page
+  </ion-title>
+</ion-navbar>
+
+<ion-content>
+  <ul>
+    <!-- create local reference for item to iterate in loop -->
+    <li *ngFor= "#item of items">
+      {{item}}
+    </li>
+  </ul>
+
+</ion-content>
